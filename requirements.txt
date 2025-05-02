@@ -1,11 +1,9 @@
+
 streamlit
-google-generativeai
-python-dotenv
-langchain
 PyPDF2
-chromadb
+langchain
 faiss-cpu
-langchain_google_genai
 openai
+tiktoken
 
 
