@@ -56,7 +56,7 @@ def get_conversational_chain():
 
 
 def user_input(user_question):
-    # embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+
     embeddings = GoogleGenerativeAIEmbeddings(
         model="models/embedding-001", google_api_key=os.getenv("GOOGLE_API_KEY")
     )
@@ -79,7 +79,7 @@ def main():
     st.set_page_config("Chat PDF")
     st.header("Chat with PDF using Gemini")
 
-    user_question = st.text_input("Ask a Question from the PDF Files,designed by mugo")
+    user_question = st.text_input("Ask a Question from the PDF Files,designed by mugo +254 714 272 371")
 
     if user_question:
         user_input(user_question)
